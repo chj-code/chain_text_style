@@ -11,8 +11,9 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Flutter ChainTextStyle
+Chain writing simplifies code by allowing you to chain multiple methods on the same line.
+This package provides a simple way to chain methods in Dart.
 
 ## Features
 
@@ -25,11 +26,50 @@ start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
+Default TextStyle
 ```dart
-const like = 'sample';
+Text(
+  'text',
+  style: TextStyle(
+    fontSize: 14,
+    color: Colors.red,
+    fontWeight: FontWeight.w500,
+    height: 1.5,
+    wordSpacing: 1.5,
+  ),
+),
+```
+
+Recommend Example1：Colors.xx.fs(xx).xx.xx.st
+```dart
+Text('text1', style: Colors.orange.fs14.st),
+Text('text1', style: Colors.black.fs14.fw5.st),
+Text('text1', style: Colors.red.fs14.fw5.fh(1.5).fws(1.5).st),
+```
+
+/// Example2：ChainTS.c(xx).xx.xx.st
+```dart
+Text(
+  'text2',
+  style: ChainTS.c(Colors.red).fs(14).fw5.fh(1.5).fws(1.5).st,
+),
+```
+
+/// Example3: ChainTS.s(xx).xx.xx.st
+```dart
+Text(
+  'text3',
+  style: ChainTS.s(14).fc(Colors.red).fw5.fh(1.5).fws(1.5).st,
+),
+```
+
+/// Example4：ChainTS().xx.xx.st
+```dart
+Text(
+  'text3',
+  style: ChainTS().fs(14).fw5.fws(1.5).fh(1.5).fc(Colors.red).st,
+),
 ```
 
 ## Additional information
