@@ -1,7 +1,7 @@
 name: chain_text_style
-description: "A new Flutter project."
+description: "Chain TextStyle，Simplified Code"
 version: 0.0.1
-homepage:
+homepage: https://github.com/GitXiaoBaiCai/chain_text_style
 
 environment:
   sdk: '>=3.4.1 <4.0.0'

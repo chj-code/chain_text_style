@@ -4,14 +4,14 @@ Flutter ChainTextStyle,
 This package provides a simple way to chain methods in Dart.
 
 ## Features
-![picture1](jp1.png) ![picture2](jp2.png)
+![picture1](jp.png)
 
 ## Getting started
 
 
 ## Usage
 
-Default TextStyle
+### Default TextStyle
 ```dart
 Text(
   'text',
@@ -25,12 +25,14 @@ Text(
 ),
 ```
 ---
-Chain TextStyle
+### Chain TextStyle
 
-Example1：Colors.xx.fs(xx).xx.xx.st (**Recommend Use**)
+Example1：Colors.xx.fs(xx).xx.xx.st 
 ```dart
 Text('text1', style: Colors.orange.fs14.st),
+
 Text('text1', style: Colors.black.fs14.fw5.st),
+
 Text('text1', style: Colors.red.fs14.fw5.fh(1.5).fws(1.5).st),
 ```
 
