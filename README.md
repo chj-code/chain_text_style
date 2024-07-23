@@ -4,10 +4,14 @@ Flutter ChainTextStyle,
 This package provides a simple way to chain methods in Dart.
 
 ## Features
-![picture1](jp.png)
+![picture](jp.png)
 
 ## Getting started
 
+```dart
+dependencies:
+  chain_text_style: ^0.0.2
+```
 
 ## Usage
 
