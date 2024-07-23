@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
             /// Example4：ChainTS().xx.xx.st
             Text(
-              'text3',
+              'text4',
               style: ChainTS().fs(14).fw5.fws(1.5).fh(1.5).fc(Colors.red).st,
             ),
           ],
