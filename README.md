@@ -4,8 +4,7 @@ Flutter ChainTextStyle,
 This package provides a simple way to chain methods in Dart.
 
 ## Features
-![picture1](jp1.png)
-![picture2](jp2.png)
+![picture1](jp1.png) ![picture2](jp2.png)
 
 ## Getting started
 
